@@ -1,0 +1,14 @@
+# differences between var and val
+var number = 123
+println("number = $number")
+
+number = 35  // var can be reassigned
+println("number = $number")
+
+
+
+
+val number = 321
+println("number = $number")
+
+number = 35  // Not allowed, throws an exception
